@@ -1,3 +1,4 @@
+
 public class TemperatureConverter {
     
 
@@ -13,8 +14,8 @@ public class TemperatureConverter {
          */
 
         
-
-        
+            double degreesInCelsius = (degreesInFahrenheit - 32) * (5/9);
+         
 
 
 
@@ -25,7 +26,7 @@ public class TemperatureConverter {
 
     }
 
-    public static void main(System[] args) {
+    public static void main(String[] args) {
 
         double degreesInFahrenheit = 25;
         

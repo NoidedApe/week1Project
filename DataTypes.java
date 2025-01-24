@@ -17,6 +17,6 @@ public class DataTypes {
         boolean isStudent = false;
         
 
-        // displayValues(name, age, cashOnHand, isStudent);
+        displayValues(name, age, cashOnHand, isStudent);
     }
 }
