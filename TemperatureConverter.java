@@ -13,9 +13,11 @@ public class TemperatureConverter {
          *  
          */
 
-        
-            double degreesInCelsius = (degreesInFahrenheit - 32) * (5/9);
-         
+            double degreesInCelsius = (degreesInFahrenheit - 32) / 1.8;
+         /*
+          * So I tried to go off the equation normally used for F vs C, which was C = (F - 32) * (5/9) 
+            This didn't work so I used the above method.
+          */
 
 
 
